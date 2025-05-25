@@ -41,7 +41,7 @@ public class SqrtTest {
     @Test
     public void testAverageIdenticalValues() {
         Sqrt sqrtCalc = new Sqrt(0);
-        assertEquals(7.0, sqrtCalc.average(7.0, 7.0), TOLERANCE);
+        assertEquals(7.0, sqrtCalc.average(7.0,7.0), TOLERANCE);
     }
 
     @Test
